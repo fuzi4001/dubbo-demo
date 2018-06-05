@@ -1,0 +1,3 @@
+#Dubbo Registry Cache
+#Thu May 31 18:31:57 CST 2018
+com.example.demo.api.Test=empty\://192.168.1.231\:20881/com.example.demo.api.Test?anyhost\=true&application\=auth-branch&category\=configurators&check\=false&dubbo\=2.5.3&interface\=com.example.demo.api.Test&logger\=slf4j&methods\=onetest&pid\=7632&side\=provider&timestamp\=1527762716676

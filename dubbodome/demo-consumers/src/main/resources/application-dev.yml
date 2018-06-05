@@ -1,0 +1,15 @@
+#spring.application.name=dubbo-consumer
+server:
+    port: 8102
+spring:
+    dubbo:
+        scan: com.example.demo.democonsumers.controller
+        application:
+            name: auth-consumer
+        protocol:
+            name: dubbo
+        registry:
+            address: zookeeper://127.0.0.1:2181
+        consumer:
+            check: false
+            timeout: 300000
